@@ -25,6 +25,8 @@ Project Requirements:
 Project Goals: 
   1. Establishing whether or not using text descriptors can be a reliable and cheap way to classify certain types of objects. 
 
+Success will be defined by how well (in terms of reliability) our text descriptors perform against general binary descriptors, with the systems running both at the same frame rate. The software will be tested exclusively on food products. Our results can be summarized in a video and/or be demonstrated live. 
+
 NOTE : making our own Optical Character Recognition software goes beyond the scope of what we wish to achieve with this project. We hope to use Open Source Software for this part of the project.    
 
 #  Challenges : 
@@ -36,7 +38,7 @@ Another challenge surrounding our scanning component is that we need to provide 
 Descriptor extraction presents one main challenge for us: 
 Any given word on our object's surface could be visible from a range of positions and angles. The object's surface itself may not be planar. How do we identify and locate text whilst running as little Optical Character Detection as possible? 
 
-We expect our 3rd component, descriptor matching, to be relatively straightforward
+We expect our 3rd component, descriptor matching, to be relatively straightforward.
 
 
 #  Calendar: 
